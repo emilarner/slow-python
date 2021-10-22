@@ -1,0 +1,9 @@
+function x()
+    if (true)
+        if (true)
+            _out `lol`
+        end
+    end
+end
+
+x()

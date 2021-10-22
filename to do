@@ -1,0 +1,4 @@
+- Implement the end-bug fix on other blocks other than function definition 
+    - Any block which adds lines of code to a definition (e.g., a class) 
+
+- 

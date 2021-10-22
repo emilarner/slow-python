@@ -1,0 +1,6 @@
+HUGE PROBLEM:
+
+How do we know when to stop appending code for a body which has end within it?
+
+Fixed!
+    - Just keep track of the blocks within the definition and truly end when all blocks have closen.

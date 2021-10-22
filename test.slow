@@ -1,0 +1,20 @@
+class String
+    let text = null
+
+    function ~init()
+        pass
+    end
+
+    function print()
+        out text
+    end
+
+    function reverse() -> String
+        python
+            set_var("result", SlowVariable("result", SlowEntity(SlowTypes.Text, get_var("text").value.value[::-1])))
+        end 
+
+        return result
+    end
+end
+
