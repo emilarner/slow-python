@@ -1,0 +1,5 @@
+let i = 0
+while (100 > i)
+	_out i
+	i++
+end
